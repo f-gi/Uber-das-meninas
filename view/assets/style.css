@@ -16,28 +16,6 @@ header{
   text-align: center;
 }
 
-.center{
-  text-align: center;
-  margin: 0 auto;
-}
-
-.btn{
-  background-color: #69A8F0;
-  color: black;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  display: inline-block;
-  padding: 10px;
-  border-radius: 4%;
-  height: 30px;
-  width: 130px;
-  margin: 0 10%;
-}
-
-.btn:hover{
-  background-color: #4D7BB0;
-}
-
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -53,4 +31,72 @@ td, th {
 
 tr:nth-child(even) {
   background-color: lightgray;
+}
+
+.center{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.usuarios{
+  width: 1000px;
+}
+
+.btn{
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4%;
+  border: 0;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.he{
+  background-color:#343A40;
+  color: black;
+  font-size: 1.5em;
+  display: inline-block;
+  height: 30px;
+  width: 130px;
+  margin: 0 10%;
+  color: white;
+}
+
+.he:hover{
+  background-color: #23272B;
+}
+
+.on{
+  background-color:#67AB76;
+ 
+}
+
+.on:hover{
+  background-color:#5D9B6B;
+}
+
+.of{
+  background-color:#C73E34;
+}
+
+.of:hover{
+  background-color:#912D26;
+}
+
+.soli{
+  background-color: #69A8F0;
+}
+
+.soli:hover{
+  background-color: #4D7BB0;
+}
+
+.des{
+  background-color: #DDDDDD;
+  cursor: not-allowed;
+}
+
+.des:hover{
+  background-color: #DDDDDD;
 }
