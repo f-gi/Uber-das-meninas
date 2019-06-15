@@ -47,7 +47,7 @@ tr:nth-child(even) {
 }
 
 .btn{
-  color: black;
+  color: whitesmoke;
   text-transform: uppercase;
   text-align: center;
   border-radius: 4%;
@@ -103,4 +103,9 @@ tr:nth-child(even) {
 
 .des:hover{
   background-color: #DDDDDD;
+}
+
+.nov{
+  width: 140px;
+  font-size: 1.3em;
 }
