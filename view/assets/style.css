@@ -109,3 +109,12 @@ tr:nth-child(even) {
   width: 140px;
   font-size: 1.3em;
 }
+
+input:disabled {
+  background: #ccc;
+}
+
+input:disabled:hover {
+  background: #ccc;
+  cursor: auto;
+}
